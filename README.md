@@ -28,9 +28,13 @@ Laravel Interview Task — Flash-Sale Checkout
 - How to run the app and tests (must have Laravel 12, Composer, Redis, and PHP installed)
   
   1- Open xampp, start Apache and MySQL.
+  
   2- run these commands in order:
+  
       php artisan migrate
+      
       composer run dev
+      
       php artisan test
 
 - Where to see logs/metrics:
