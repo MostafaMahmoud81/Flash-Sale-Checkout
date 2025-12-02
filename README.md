@@ -21,7 +21,7 @@ Laravel Interview Task — Flash-Sale Checkout
         - The webhook may receive success values (either true or false). If false, the order remains pending, and if true, the order is updated to paid.
     
     5- Concurrency and Race Conditions:
-        -All critical operations, such as creating holds and processing webhook payments, ensure proper locking and transaction management to handle concurrency.
+        - All critical operations, such as creating holds and processing webhook payments, ensure proper locking and transaction management to handle concurrency.
         - The system ensures that no overselling occurs by checking the availability before reserving stock.
 
 
@@ -35,5 +35,5 @@ Laravel Interview Task — Flash-Sale Checkout
 
 - Where to see logs/metrics:
  
-  you can see logs/metrics in storage\logs\metrics.log file in this path
+  you can see logs/metrics in storage\logs\metrics.log file in this path.
       
