@@ -1,7 +1,7 @@
 # Flash-Sale Checkout
 Laravel Interview Task — Flash-Sale Checkout
 
-- Assumptions and invariants enforced
+- Assumptions and invariants enforced:
     1- Product Management:
         - Products have a stock_quantity, reserved, and sold fields to track inventory.
         - A hold is a temporary reservation of stock for a product. The reserved field is updated when a hold is created and released when the hold expires.
