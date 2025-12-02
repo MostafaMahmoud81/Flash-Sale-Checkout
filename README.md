@@ -2,6 +2,7 @@
 Laravel Interview Task — Flash-Sale Checkout
 
 - Assumptions and invariants enforced:
+    
     1- Product Management:
         - Products have a stock_quantity, reserved, and sold fields to track inventory.
         - A hold is a temporary reservation of stock for a product. The reserved field is updated when a hold is created and released when the hold expires.
@@ -25,6 +26,7 @@ Laravel Interview Task — Flash-Sale Checkout
 
 
 - How to run the app and tests (must have Laravel 12, Composer, Redis, and PHP installed)
+  
   1- Open xampp, start Apache and MySQL.
   2- run these commands in order:
       php artisan migrate
@@ -32,5 +34,6 @@ Laravel Interview Task — Flash-Sale Checkout
       php artisan test
 
 - Where to see logs/metrics:
+ 
   you can see logs/metrics in storage\logs\metrics.log file in this path
       
